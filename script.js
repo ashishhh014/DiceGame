@@ -12,6 +12,7 @@ const diceEl = document.querySelector('.dice');
 const newBtn = document.querySelector('.btn--new');
 const rollBtn = document.querySelector('.btn--roll');
 const holdBtn = document.querySelector('.btn--hold');
+//this is a change
 
 function changeImage(num) {
   diceEl.src = `dice-${num}.png`;
